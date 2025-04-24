@@ -69,7 +69,7 @@ class FFmpegStreamer:
     def write_frame(self, frame):
         """
         Writes a frame (numpy array) to the FFmpeg subprocess stdin.
-        Returns True if successful, False otherwise.
+        Returns True if successful, False otherwise.11
         """
         # ... (unchanged) ...
         if self.process is None or self.process.poll() is not None:

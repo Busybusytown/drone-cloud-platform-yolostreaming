@@ -29,7 +29,7 @@ class YOLOProcessor:
         print(f"Attempting to open video source: {self.video_source}")
         self.cap = cv2.VideoCapture(self.video_source)
 
-        # --- 尝试设置 VideoCapture 属性以提高 RTMP 连接成功率 ---
+        # 尝试设置 VideoCapture 属性以提高 RTMP 连接成功率
         # 注意：这些属性的可用性和效果取决于你的 OpenCV 版本以及它底层依赖的 FFmpeg 版本和编译选项
         # 增加打开超时时间（如果支持），单位毫秒
         # cv2.CAP_PROP_OPEN_TIMEOUT_MSEC = 200000 # 尝试设置为 200 秒，看看是否能突破 30 秒限制
