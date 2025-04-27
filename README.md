@@ -21,3 +21,9 @@
 - VIDEO_SOURCE: 配置视频源的 RTMP 地址或本地文件路径。
 - YOLO_MODEL_PATH: 配置目标检测模型的路径。
 - RTMP_PUSH_URL: 配置视频推流的目标 RTMP 地址。
+
+**安装依赖**
+
+···
+pip install -r requirements.txt
+···

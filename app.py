@@ -264,6 +264,7 @@ VIDEO_SOURCE = "rtmp://localhost:1935/live/dji_stream"
 YOLO_MODEL_PATH = 'model/best.pt'
 RTMP_PUSH_URL = "rtmp://localhost:1935/live/stream"
 TARGET_FPS = 30
+# 设置前端目标视频画面大小
 TARGET_WIDTH = None
 TARGET_HEIGHT = None
 
